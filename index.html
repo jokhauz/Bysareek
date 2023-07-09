@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css">
+    <title>By Sareek</title>
+</head>
+<body>
+    <header>
+        <span><h1>BY</h1>SAREEK</span>
+        <nav id="menu">
+            <i class="fas fa-xmark btn-close" id="btn-close"></i>
+            <a href="#home">Bosh Sahifa</a>
+            <a href="#port">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#about">Contact</a>
+        </nav>
+        <i class="fas fa-bars btn" id="btn"></i>
+    </header>
+    <div class="box" id="home">
+        <div class="socials">
+            <img src="IMG_20230422_204137_857.jpg" alt="Photo">
+            
+            <p>SARDOR MAMADOV <i class="fas fa-camera"></i></p>
+        </div>
+        <nav>
+            <a href="https://t.me/infinitius"><i class="fab fa-telegram"></i></a>
+            <a href="https://instagram.com/by.sareek"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/"><i class="fab fa-tiktok"></i></a>
+        </nav>
+        <div class="to-down">
+            <a href="#port"><i class="fas fa-sort-down"></i></a>
+        </div>
+    </div>
+    <div class="port" id="port">
+        <div>
+            <video src="khalimovs.mp4" autoplay loop></video>
+        </div>
+        <div>
+            <video src="aynimo.mp4" autoplay loop></video>
+        </div>
+        <div class="third">
+            <video src="billionere.mp4" autoplay loop></video>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h1>Sardor <span>Mamadov</span></h1>
+        <p>Mobilograph, Graphic designer, SMM</p>
+
+        <i>Salom! Men Buxoro shaxrida yashayman, Mobilografiya sohasida 1 yillik tajribam bor. <br>
+        Yuqoridagi videolar qilgan proyektlarimdan ozgina lavhalar. <br><br>
+        Men asosan CapCut va VN dasturlarida ishlayman. Sizga shablonlar montaj uchun filtrlar kerak bo'lsa <br>
+        sizni Telegram kanalimga taklif qilaman!</i>
+
+        <form action="" method="get">
+            <label for="">Ism</label>
+            <input type="text" name="" id="" placeholder="Your name">
+            <label for="">Izoh</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Comment"></textarea> <br>
+            <button>Send</button>
+        </form>
+    </div>
+    <footer>
+        <sub>Website By <a href="http://github.com/jokhauz">jokhauz</a></sub>
+    </footer>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", ()=>{
+            document.getElementById("menu").classList.add("active");
+        });
+        document.getElementById("btn-close").addEventListener("click", ()=>{
+            document.getElementById("menu").classList.remove("active");
+        });
+    </script>
+</body>
+</html>
