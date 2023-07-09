@@ -122,7 +122,6 @@ header #btn{
 .port div{
     width: 300px;
     height: 340px;
-    background-color: #214559;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
@@ -138,11 +137,12 @@ header #btn{
     justify-content: center;
     align-items: center;
     font-size: 35px;
-    color: white;
+    color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 5px;
     opacity: 0;
     overflow: hidden;
+    z-index: 3;
     transition: top 0.8s ease, opacity 2.5s ease-out;
 }
 .port div:hover::after{
@@ -152,6 +152,7 @@ header #btn{
 .port div video{
     width: 100%;
     height: 100%;
+    transform: scale(2);
 }
 .about{
     height: 100vh;
