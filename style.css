@@ -45,10 +45,10 @@ header nav a:hover::before{
     opacity: 1;
     bottom: -4px;
 }
-header .btn-close{
+header #btn-close{
     display: none;
 }
-header .btn{
+header #btn{
     display: none;
 }
 .box{
@@ -244,20 +244,18 @@ footer sub{
         font-size: 25px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    header .btn-close{
+    header #btn-close{
         display: inline-block;
         position: absolute;
         top: 10px;
         right: 10px;
-        font-size: 30px;
-        color: #212121;
+        width: 30px;
     }
-    header .btn{
+    header #btn{
         display: inline-block;
         position: absolute;
         right: 10px;
-        font-size: 28px;
-        color: white;
+        width: 28px;
     }
     .box  nav a i{
         font-size: 24px;
